@@ -1,64 +1,51 @@
-# FraudShield: AI-Powered Credit Card Fraud Detection
+# 💳 Credit Card Fraud Detection via MQTT + Streamlit
 
-FraudShield is an AI-driven credit card fraud detection system that utilizes machine learning and real-time transaction monitoring to identify fraudulent activities. The system leverages MQTT messaging for real-time transaction processing and XGBoost for fraud prediction.
-
-## 📌 Features
-- **Machine Learning Model**: Uses XGBoost for fraud classification
-- **Real-time Transaction Monitoring**: Listens to transactions via MQTT
-- **Streamlit Dashboard**: (Coming soon) For real-time fraud visualization
-- **Logging & Alerting**: Logs fraudulent transactions with probability scores
-- **Scalable**: Easily deployable in production environments
+This project presents two modes of deploying a credit card fraud detection system:
 
 ---
 
-## 🏗️ Project Structure
-```
-FraudShield/
-│-- bigtrain.py              # Model training script
-│-- fraud_detection_app.py   # Streamlit dashboard (UI for visualization)
-│-- fraud_detection_system.py # Core fraud detection logic
-│-- mqtt_publisher.py        # Publishes transactions via MQTT
-│-- mqtt_subscriber.py       # Listens for transactions, detects fraud
-│-- detected_frauds.csv      # Logs of fraud transactions
-│-- fraud_model.pkl          # Trained ML model
-│-- README.md                # Project Documentation
-```
+## 📦 1. Streamlit App (User-Friendly Dashboard)
+
+This version allows users to **upload CSV files** or simulate random fraud data, process it through the model, and visualize the output with elegant charts.
+
+### 🧠 Features:
+- Upload historical transaction data
+- Fraud prediction using trained model
+- Summary statistics & fraud rate
+- Interactive Streamlit-based dashboard
+
+### 🚀 Deployment:
+- Run with `streamlit run streamlit_app.py`
+- Customize thresholds, visualize fraud distribution
+
+### 📸 Screenshot Preview:
+> *(Insert Streamlit UI screenshots here)*
 
 ---
 
-## 🚀 Setup Instructions
-### 1️⃣ Install Dependencies
-```sh
-pip install -r requirements.txt
-```
+## 🌐 2. Real-Time Infinite Random Data Simulation (via MQTT)
 
-### 2️⃣ Train the Model
-```sh
-python bigtrain.py
-```
+A simulation pipeline for **real-time fraud detection** using:
+- `paho-mqtt` for broker-based message communication
+- Infinite data generation mimicking card transactions
+- Live classification using the trained ML model
+- Console alerts + logging for detected frauds
 
-### 3️⃣ Run the Fraud Detection System
-```sh
-python mqtt_subscriber.py
-```
+### 🔧 Components:
+- `simulate.py` — generates and publishes data
+- `subscribe.py` — listens and detects fraud in real-time
+- `broker` — Mosquitto setup
 
-### 4️⃣ Publish Transactions (Simulated)
-```sh
-python mqtt_publisher.py
-```
+### 📸 Screenshot Preview:
+> *(Insert CLI/MQTT simulation screenshot here)*
 
 ---
 
-## 📊 Streamlit Dashboard (Coming Soon)
-📌 This section will showcase fraud detection insights. (Screenshots to be added)
+## 🧠 Model Info
+- Algorithm: Random Forest (with SMOTE for imbalance)
+- Evaluation: Accuracy, Precision, Recall, Confusion Matrix
+- Model is saved as: `fraud_model.pkl`
 
 ---
 
-## 🤝 Contributing
-Feel free to open issues and submit pull requests to enhance this project.
-
----
-
-## 📜 License
-MIT License. Free to use and modify.
-
+## 📁 Project Structure (post-update)
