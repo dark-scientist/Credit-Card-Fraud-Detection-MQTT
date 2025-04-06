@@ -1,0 +1,60 @@
+2025-04-04 11:23:29,600 - OK: $2069.80 - fraud_Turcotte-Halvorson
+2025-04-04 11:23:30,098 - OK: $5210.46 - fraud_Morissette-Schaefer
+2025-04-04 11:23:30,596 - OK: $18701.25 - fraud_Bode-Rempel
+2025-04-04 11:23:31,109 - OK: $18028.86 - fraud_Ziemann-Waters
+2025-04-04 11:23:31,605 - OK: $3774.70 - fraud_Runte, Green and Emard
+2025-04-04 11:23:32,116 - OK: $18089.53 - fraud_Reilly and Sons
+2025-04-04 11:23:32,614 - OK: $14944.21 - fraud_Keeling-Crist
+2025-04-04 11:23:33,109 - OK: $7291.79 - fraud_Schuppe LLC
+2025-04-04 11:23:33,610 - OK: $729.19 - fraud_Rau-Grant
+2025-04-04 11:23:34,114 - OK: $12660.18 - fraud_Boehm, Block and Jakubowski
+2025-04-04 11:23:34,623 - OK: $2485.58 - fraud_McLaughlin, Armstrong and Koepp
+2025-04-04 11:23:35,113 - OK: $12353.65 - fraud_Willms, Kris and Bergnaum
+2025-04-04 11:23:35,622 - OK: $20876.53 - fraud_Kozey-McDermott
+2025-04-04 11:23:36,133 - OK: $2173.95 - fraud_Schimmel-Olson
+2025-04-04 11:23:36,632 - OK: $8263.27 - fraud_Trantow PLC
+2025-04-04 11:23:37,125 - OK: $2973.22 - fraud_Klein Group
+2025-04-04 11:23:37,624 - OK: $19917.43 - fraud_Kuhic Inc
+2025-04-04 11:23:38,130 - OK: $11389.54 - fraud_Schuppe-Schuppe
+2025-04-04 11:23:38,630 - OK: $10680.00 - fraud_Altenwerth-Kilback
+2025-04-04 11:23:39,130 - OK: $8613.87 - fraud_Powlowski-Weimann
+2025-04-04 22:35:37,736 - OK: $3912.94 - fraud_Ferry, Reichel and DuBuque
+2025-04-04 22:35:38,236 - OK: $3465.53 - fraud_Kihn-Fritsch
+2025-04-04 22:35:38,727 - FRAUD: $11481.68 - fraud_Huel Ltd - 0.7648 probability
+2025-04-04 22:35:39,229 - OK: $10299.43 - fraud_Kilback Group
+2025-04-04 22:35:39,737 - OK: $9226.13 - fraud_Reichert, Huels and Hoppe
+2025-04-04 22:35:40,235 - OK: $13734.53 - fraud_Gleason and Sons
+2025-04-04 22:35:40,733 - OK: $12745.21 - fraud_Kuphal-Predovic
+2025-04-04 22:35:41,240 - FRAUD: $6644.76 - fraud_Morissette, Weber and Wiegand - 0.7373 probability
+2025-04-04 22:35:41,738 - FRAUD: $14415.70 - fraud_Fadel Inc - 0.8767 probability
+2025-04-04 22:35:42,246 - OK: $18929.67 - fraud_Reilly, Heaney and Cole
+2025-04-04 22:35:42,737 - OK: $1172.40 - fraud_Yost, Block and Koepp
+2025-04-04 22:35:43,243 - OK: $15166.51 - fraud_Roob LLC
+2025-04-04 22:35:43,744 - FRAUD: $19923.38 - fraud_Wiegand-Lowe - 0.9514 probability
+2025-04-04 22:35:44,256 - OK: $15818.58 - fraud_Bogisich-Homenick
+2025-04-04 22:35:44,752 - OK: $10762.37 - fraud_Graham and Sons
+2025-04-04 22:35:45,252 - OK: $3828.78 - fraud_Kunze, Larkin and Mayert
+2025-04-04 22:35:45,751 - OK: $2519.12 - fraud_Sporer Inc
+2025-04-04 22:35:46,250 - FRAUD: $16262.73 - fraud_Powlowski-Weimann - 0.9691 probability
+2025-04-04 22:35:46,754 - FRAUD: $19765.42 - fraud_Kozey-Kuhlman - 0.9682 probability
+2025-04-04 22:35:47,262 - FRAUD: $2127.38 - fraud_Zboncak, Rowe and Murazik - 0.5610 probability
+2025-04-05 23:57:52,835 - FRAUD: $8914.82 - fraud_Medhurst Inc - 0.6740 probability
+2025-04-05 23:57:53,331 - FRAUD: $8816.77 - fraud_O'Hara-Wilderman - 0.7841 probability
+2025-04-05 23:57:53,849 - OK: $6665.40 - fraud_Fadel Inc
+2025-04-05 23:57:54,342 - OK: $15823.30 - fraud_Kertzmann LLC
+2025-04-05 23:57:54,840 - OK: $970.91 - fraud_Effertz LLC
+2025-04-05 23:57:55,342 - FRAUD: $6583.05 - fraud_Kub PLC - 0.9730 probability
+2025-04-05 23:57:55,842 - OK: $26666.19 - fraud_Kris-Padberg
+2025-04-05 23:57:56,359 - OK: $4564.54 - fraud_Gutmann, McLaughlin and Wiza
+2025-04-05 23:57:56,845 - OK: $15069.64 - fraud_Dach-Borer
+2025-04-05 23:57:57,345 - OK: $4249.89 - fraud_Kling Inc
+2025-04-05 23:57:57,846 - OK: $17811.99 - fraud_Kiehn-Emmerich
+2025-04-05 23:57:58,349 - FRAUD: $10667.24 - fraud_Torphy-Goyette - 0.9242 probability
+2025-04-05 23:57:58,849 - FRAUD: $11829.45 - fraud_Bauch-Raynor - 0.8191 probability
+2025-04-05 23:57:59,349 - OK: $3322.78 - fraud_Crona and Sons
+2025-04-05 23:57:59,851 - FRAUD: $17066.47 - fraud_Skiles LLC - 0.7840 probability
+2025-04-05 23:58:00,355 - OK: $16378.94 - fraud_Ruecker Group
+2025-04-05 23:58:00,853 - OK: $9580.75 - fraud_Wuckert-Walter
+2025-04-05 23:58:01,355 - FRAUD: $14000.49 - fraud_Lynch-Mohr - 0.6977 probability
+2025-04-05 23:58:01,855 - OK: $2603.54 - fraud_Hirthe-Beier
+2025-04-05 23:58:02,356 - OK: $18940.12 - fraud_Morar Inc
