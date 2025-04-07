@@ -53,7 +53,7 @@ Credit-Card-Fraud-Detection-MQTT-Worldline/
 │   │   ├── mqtt_subscriber.py
 │   │   ├── realtimeapp.py
 │   │   └── system.log
-│   ├── resources/
+│   ├── streamlit/
 │   │   ├── LICENSE
 │   │   ├── bigtraim.py
 │   │   ├── fraud_dashboard.py
